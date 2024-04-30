@@ -1,0 +1,25 @@
+{
+  "name": "restful-api-covid",
+  "version": "1.0.0",
+  "description": "Restful Api Data Covid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "module": "^1.2.5",
+    "mysql2": "^3.7.1",
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.35.2"
+  },
+  "type": "module"
+}
